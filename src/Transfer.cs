@@ -12,7 +12,6 @@ namespace BankingConsole
         int senderId;
         int recipientId;
         string amountTransferred;
-        DateTime date;
         public Transfer(int senderId, int recipientId, string amountTransferred)
         {
             this.senderId = senderId;
