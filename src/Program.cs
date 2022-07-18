@@ -1,8 +1,7 @@
-﻿
-using Npgsql;
+﻿using Npgsql;
 using System.Text.RegularExpressions;
 
-//Database connect data
+//Database connection data
 const string Adress = "localhost";
 const string DBName = "banking";
 //Superuser login data
